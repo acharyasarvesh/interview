@@ -1,0 +1,90 @@
+<main class="registrations new ">
+      
+      <article class="fit-fixed">
+  <div class="grid-row">
+  <div class="grid-col-12">
+    <div class="grid-row grid-row--no-collapse color-scheme--white" exclude="phone">
+  <div class="grid-col-6">
+    <h3>Sign up</h3>
+  </div>
+  <div class="grid-col-6 grid-col--align-right">
+    Already have an account? <a href="/webtech/login" class="create-account secondary cta js-nav-sign-in">Login</a>
+  </div>
+</div>
+
+<div class="grid-row">
+  <div class="grid-col-12 grid-col--no-margin grid-col--no-padding">
+    <hr class="no-margin">
+  </div>
+</div>
+
+<div class="grid-row color-scheme--white">
+
+
+  <div class="grid-col-6">
+    <h5>Sign up with email:</h5>
+
+    
+    <div id='flash_messages'>
+</div>
+	
+	<?php echo $this->Form->create('',array(
+		'inputDefaults' => array('label' => false,'div'=> false ))); 
+	?>
+  
+  
+	<?php echo $this->Form->input('first_name',array(
+			'placeholder'=>'First Name',
+			'style'=>'border: 1px solid; width:46%; margin-bottom: 2%; padding: 16px 0 16px 10px;'
+	)); ?>
+	
+	
+	<?php echo $this->Form->input('last_name',array(
+			'placeholder'=>'Last Name',
+			'style'=>'border: 1px solid; width:46%; margin-bottom: 2%; padding: 16px 0 16px 10px;'
+	)); ?>
+	
+	<?php echo $this->Form->input('emailid',array(
+			'placeholder'=>'Email Id',
+			'style'=>'border: 1px solid; width:96%; margin-bottom: 2%; padding: 16px 0 16px 10px;'
+	)); ?>
+	
+	<?php echo $this->Form->input('password',array(
+			'placeholder'=>'Password',
+			'style'=>'border: 1px solid; width:96%; margin-bottom: 2%; padding: 16px 0 16px 10px;'
+	)); ?>
+	
+	<?php echo $this->Form->input('url',array(
+			'placeholder'=>'URL',
+			'style'=>'border: 1px solid; width:96%; margin-bottom: 2%; padding: 16px 0 16px 10px;'
+	)); ?>
+	
+	
+	<?php echo $this->Form->input('plan_id',array(
+			'empty' => true,
+			'options' => array('Basic','Team','Unlimited'),
+			'style'=>'border: 1px solid; width:99%; margin-bottom: 2%; padding: 16px 0 16px 10px;'
+	)); ?>
+	
+      <div class="grid-row">
+	  
+		  <?php echo $this->Form->end(__('Get started!')); ?>
+		  
+        <div class="grid-col-12 grid-col--no-padding grid-col--extra-margin-bottom">
+          <small>
+            By signing up, you agree to our
+            <a href="/webtech/terms">Terms of service</a>
+          </small>
+        </div>
+      </div>
+
+</form>  
+</div>
+</div>
+
+  </div>
+  </div>
+</article>
+
+    </main>
+	

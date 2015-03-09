@@ -1,0 +1,4 @@
+[11-Dec-2014 17:36:33 UTC] PHP Warning:  Unterminated comment starting line 71 in /home/indiascores/public_html/recovid/interview/lib/Cake/View/Helper/SessionHelper.php on line 71
+[11-Dec-2014 17:36:33 UTC] PHP Parse error:  syntax error, unexpected end of file, expecting function (T_FUNCTION) in /home/indiascores/public_html/recovid/interview/lib/Cake/View/Helper/SessionHelper.php on line 85
+[15-Dec-2014 09:38:23 UTC] PHP Fatal error:  Call to a member function subject() on a non-object in /home/indiascores/public_html/recovid/interview/app/Controller/UsersController.php on line 41
+[16-Dec-2014 16:57:11 UTC] PHP Fatal error:  Call to a member function subject() on a non-object in /home/indiascores/public_html/recovid/interview/app/Controller/UsersController.php on line 41
